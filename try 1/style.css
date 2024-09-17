@@ -1,0 +1,66 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    max-width: 960px;
+    height: 100vh;
+    margin: auto;
+    padding: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #06faf6;
+}
+
+.card{
+    cursor: pointer;
+    padding: 50px auto;
+    background-color: #7d7f7f;
+    border: 1px solid black;
+    color: transparent;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    transition: background-color .4s;
+}
+
+.card:hover{
+    background-color: #dbf8f2;
+}
+
+.card:active{
+    background-color: #3e8d7f;
+}
+
+.check{
+    background-color: #ebf839;
+    cursor: default;
+}
+
+.check:hover{
+    background-color: #ebf839;
+}
+
+.check:active{
+    background-color: #ebf839;
+}
+
+.checkSuccess{
+    background-color: #3efc4e;
+    cursor: default;
+}
+
+.checkSuccess:hover{
+    background-color: #3efc4e;
+}
+
+.checkSuccess:active{
+    background-color: #3efc4e;
+}
